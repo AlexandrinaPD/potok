@@ -1,6 +1,6 @@
 package com.company;
 
-public abstract class Car implements Runnable{
+public abstract class Car implements Runnable {
     String name;
     int maxSpeed;
 
@@ -26,9 +26,5 @@ public abstract class Car implements Runnable{
         this.maxSpeed = maxSpeed;
     }
 
-    @Override
-    public void run() {
 
-
-    }
 }
